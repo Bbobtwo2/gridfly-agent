@@ -3,6 +3,7 @@
 *Team MostlyHarmless, for the [Alpaca AI Trading Agents Hackathon](https://lablab.ai/ai-hackathons/alpaca-ai-trading-agents-hackathon), Aug 28 to Sep 4, 2026.*
 Site: [mostlyharmlessmarkets.com](https://mostlyharmlessmarkets.com) (the saga as a comic, with day strips built from the journal and a live camp map) ·
 The film: [youtu.be/tPwzSvq4oTY](https://youtu.be/tPwzSvq4oTY) ·
+**One-page write-up (AI logic · risk gates · Alpaca infrastructure): [WRITEUP.md](WRITEUP.md)** ·
 The post: [the week on LinkedIn](https://www.linkedin.com/posts/boblongccm_84k-wednesday-morning-152415-settled-activity-7501512245932126208-L3Qp)
 
 GridFly is a structured options-income strategy wrapped in AI agent risk control, built on the

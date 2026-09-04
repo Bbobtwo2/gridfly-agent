@@ -1,4 +1,6 @@
-# GridFly: one-page write-up
+# GridFly: one-page write-up (submission requirement)
+
+*Covers the three required topics: AI logic, risk gates, and the Alpaca infrastructure implementation.*
 
 **What it is:** an autonomous agent that sells defined-risk SPX 0DTE structures on a fixed
 intraday schedule on Alpaca paper, holds them to cash settlement, and spends most of its
@@ -27,7 +29,7 @@ under a hard retry cap. Structures are held to cash settlement; there is no forc
 bell. A read-only reconcile tick diffs the broker's book against the journal. The engine refuses
 trade mode on a non-paper key and refuses to start while any calibrated value is a placeholder.
 
-## Alpaca infrastructure
+## Alpaca infrastructure implementation
 Alpaca Trading API on the paper environment: multi-leg option limit orders for the structures,
 two-leg verticals for the explorer sleeve, order polling, cancels, positions and account state
 for sizing and reconciliation. Alpaca Market Data: 0DTE option chains and quotes (strike-bounded
