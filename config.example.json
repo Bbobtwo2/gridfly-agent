@@ -1,0 +1,77 @@
+{
+  "_comment": [
+    "PUBLIC SKELETON of the GridFly configuration. Every decision value is proprietary and reads",
+    "\"this is redacted\". The engine refuses to start, in any mode, while one remains. Copy to",
+    "config.json (gitignored) and supply your own values. Times are US/Eastern."
+  ],
+  "alpaca": {
+    "_comment": "Paper keys only; the engine refuses trade mode on a live key.",
+    "api_key_id": "PK_YOUR_PAPER_KEY_ID",
+    "api_secret_key": "YOUR_PAPER_SECRET_KEY",
+    "paper": true
+  },
+  "mode": "log",
+  "underlying": {
+    "index_symbol": "SPX",
+    "option_root": "SPXW",
+    "spot_proxy_symbol": "SPY",
+    "index_multiplier": 10.0
+  },
+  "grid": {
+    "slots_et": "this is redacted",
+    "late_entry_grace_s": "this is redacted"
+  },
+  "sizing": {
+    "slot_weights": "this is redacted",
+    "reserve_explorer_frac": "this is redacted",
+    "reserve_ops_frac": "this is redacted",
+    "reserve_release_explorer_et": "this is redacted",
+    "reserve_release_ops_et": "this is redacted",
+    "max_lots_per_slot": "this is redacted"
+  },
+  "structure": {
+    "type": "iron_fly",
+    "wing_width_pct": "this is redacted"
+  },
+  "entry": {
+    "limit_inside_mid": "this is redacted",
+    "cancel_after_s": "this is redacted",
+    "min_credit": "this is redacted"
+  },
+  "gates": {
+    "rv_lookback_min": "this is redacted",
+    "rv_ceiling_bps": "this is redacted",
+    "credit_floor_am": "this is redacted",
+    "credit_floor_pm": "this is redacted",
+    "credit_floor_split_et": "this is redacted",
+    "release_day_file": "release_days.json",
+    "release_day_override": "this is redacted"
+  },
+  "containment": {
+    "cut_fraction": "this is redacted",
+    "confirm_seconds": "this is redacted",
+    "poll_seconds": "this is redacted",
+    "cancel_after_s": "this is redacted",
+    "retry_cap": "this is redacted"
+  },
+  "explorer": {
+    "enabled": false,
+    "max_trades_per_day": "this is redacted",
+    "cooldown_s": "this is redacted",
+    "hold_s": "this is redacted",
+    "vertical_width_pts": "this is redacted",
+    "window_start_et": "this is redacted",
+    "window_end_et": "this is redacted"
+  },
+  "council": {
+    "_comment": "Gate Council LLM plumbing. Any OpenAI-compatible chat endpoint; key also from GRIDFLY_LLM_API_KEY / FEATHERLESS_API_KEY.",
+    "llm_base_url": "https://api.featherless.ai/v1",
+    "llm_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "llm_api_key": "",
+    "news_symbols": "SPY",
+    "news_limit": 12,
+    "sentiment_extreme_abs": "this is redacted",
+    "credit_floor_frac_of_width": "this is redacted"
+  },
+  "journal_dir": "journal"
+}

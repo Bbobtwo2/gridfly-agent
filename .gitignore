@@ -1,0 +1,6 @@
+config.json
+*.log
+journal/
+__pycache__/
+.env
+release_days.json
