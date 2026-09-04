@@ -39,4 +39,5 @@ orders, activities, quotes, calendar). Judged account: PA3OOCQ2E1CU.
 Fresh $100,000 paper account, Mon Aug 31 to Thu Sep 3, settled cash as posted by the broker:
 Monday −$1,539, Tuesday −$14,414, Wednesday +$33,070, Thursday +$35,322. **$152,415 settled,
 +52% on the week.** Day-by-day strips generated from the journal, and a live camp map, are at
-mostlyharmlessmarkets.com; the five-minute film is at youtu.be/tPwzSvq4oTY.
+mostlyharmlessmarkets.com; the five-minute film is at youtu.be/tPwzSvq4oTY; the week's
+write-up post: linkedin.com/posts/boblongccm_84k-wednesday-morning-152415-settled-activity-7501512245932126208-L3Qp
